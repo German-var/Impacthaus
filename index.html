@@ -12,31 +12,27 @@
 
     <title>Impacthaus | Web & Social Media</title>
 
-
-    <!-- ICONO DE LA PESTAÑA -->
-<link
-    rel="icon"
-    type="image/png"
-    href="impacthaus-icon.png?v=2"
->
-
-
-    <!-- DESCRIPCIÓN -->
     <meta
         name="description"
-        content="Impacthaus crea páginas web modernas y estrategias de redes sociales para negocios y marcas que quieren mejorar su presencia digital."
+        content="Creamos páginas web, contenido y redes sociales para marcas que quieren verse diferentes."
     >
 
+    <link
+        rel="icon"
+        type="image/png"
+        href="impacthaus-logo.png?v=3"
+    >
 
-    <!-- INFORMACIÓN AL COMPARTIR -->
+    <!-- OPEN GRAPH -->
+
     <meta
         property="og:title"
-        content="Impacthaus | Web & Social Media"
+        content="Impacthaus | Creative Digital Studio"
     >
 
     <meta
         property="og:description"
-        content="Diseño web y manejo estratégico de redes sociales para marcas y negocios."
+        content="Web, contenido y social media para marcas que quieren destacar."
     >
 
     <meta
@@ -45,14 +41,8 @@
     >
 
 
-    <!-- CSS -->
-    <link
-        rel="stylesheet"
-        href="styles.css"
-    >
+    <!-- GOOGLE FONTS -->
 
-
-    <!-- FUENTES -->
     <link
         rel="preconnect"
         href="https://fonts.googleapis.com"
@@ -65,8 +55,14 @@
     >
 
     <link
-        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,500;1,500&display=swap"
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Sora:wght@400;500;600;700;800&display=swap"
         rel="stylesheet"
+    >
+
+
+    <link
+        rel="stylesheet"
+        href="styles.css"
     >
 
 </head>
@@ -75,1443 +71,1775 @@
 <body>
 
 
-    <!-- NAVBAR -->
+<!-- ========================================
+     NAVBAR
+======================================== -->
 
-    <header class="navbar">
+<header class="navbar">
 
-        <a
-            href="#inicio"
-            class="brand"
+    <a
+        href="#inicio"
+        class="brand"
+    >
+
+        <img
+            src="impacthaus-logo.png"
+            alt="Impacthaus"
         >
 
-            <img
-                src="impacthaus-logo.png"
-                alt="Impacthaus"
-            >
+    </a>
 
+
+    <nav id="navMenu">
+
+        <a href="#servicios">
+            Servicios
         </a>
 
+        <a href="#paquetes">
+            Paquetes
+        </a>
 
-        <nav id="navMenu">
+        <a href="#nosotros">
+            Nosotros
+        </a>
 
-            <a href="#inicio">
-                Inicio
-            </a>
+        <a href="#proyectos">
+            Proyectos
+        </a>
 
-            <a href="#servicios">
-                Servicios
-            </a>
+        <a href="#resenas">
+            Reseñas
+        </a>
 
-            <a href="#paquetes">
-                Paquetes
-            </a>
+        <a
+            href="#contacto"
+            class="nav-cta"
+        >
+            Hablemos
+            <span>↗</span>
+        </a>
 
-            <a href="#nosotros">
-                Nosotros
-            </a>
+    </nav>
 
-            <a href="#proyectos">
-                Proyectos
+
+    <button
+        class="menu-btn"
+        id="menuBtn"
+        aria-label="Abrir menú"
+    >
+
+        <span></span>
+        <span></span>
+        <span></span>
+
+    </button>
+
+</header>
+
+
+
+<main>
+
+
+<!-- ========================================
+     HERO
+======================================== -->
+
+<section
+    class="hero"
+    id="inicio"
+>
+
+    <div class="hero-blob hero-blob-one"></div>
+    <div class="hero-blob hero-blob-two"></div>
+
+
+    <div class="hero-content">
+
+
+        <div class="hero-kicker">
+
+            <span class="status-dot"></span>
+
+            CREATIVE DIGITAL STUDIO
+
+        </div>
+
+
+        <h1>
+
+            Tu marca,
+            <span class="hero-blue">
+                pero mucho
+            </span>
+
+            <span class="hero-highlight">
+                más cool.
+            </span>
+
+        </h1>
+
+
+        <p class="hero-description">
+
+            Diseñamos páginas web y creamos contenido
+            para que tu negocio se vea tan bien en internet
+            como se ve en tu cabeza.
+
+        </p>
+
+
+        <div class="hero-actions">
+
+            <a
+                href="#paquetes"
+                class="button button-dark"
+            >
+                Ver paquetes
+                <span>↗</span>
             </a>
 
             <a
-                href="#contacto"
-                class="nav-button"
+                href="#proyectos"
+                class="button button-soft"
             >
-                Contacto
+                Ver nuestro trabajo
             </a>
 
-        </nav>
+        </div>
 
 
-        <button
-            class="menu-btn"
-            id="menuBtn"
-            aria-label="Abrir menú"
-        >
-            ☰
-        </button>
+        <div class="hero-mini-info">
 
-    </header>
-
-
-
-    <main>
-
-
-        <!-- HERO -->
-
-        <section
-            class="hero"
-            id="inicio"
-        >
-
-            <img
-                src="impacthaus-icon.png"
-                alt=""
-                class="hero-logo-background"
-            >
-
-
-            <div class="hero-decoration decoration-one"></div>
-            <div class="hero-decoration decoration-two"></div>
-
-
-            <div class="hero-content">
-
-                <p class="eyebrow">
-                    SOCIAL MEDIA & CREATIVE STUDIO
-                </p>
-
-
-                <h1>
-
-                    Creamos tu
-
-                    <span>
-                        presencia digital.
-                    </span>
-
-                </h1>
-
-
-                <p class="hero-description">
-
-                    Diseño y desarrollo web junto con manejo estratégico
-                    de redes sociales para marcas y negocios que quieren
-                    verse profesionales y crecer digitalmente.
-
-                </p>
-
-
-                <div class="hero-actions">
-
-                    <a
-                        href="#servicios"
-                        class="button-primary"
-                    >
-                        Ver servicios
-                    </a>
-
-
-                    <a
-                        href="#paquetes"
-                        class="button-link"
-                    >
-
-                        Ver paquetes
-
-                        <span>
-                            ↗
-                        </span>
-
-                    </a>
-
-                </div>
-
+            <div>
+                <strong>WEB</strong>
+                <span>por Germán</span>
             </div>
 
+            <div class="mini-divider"></div>
 
-            <div class="hero-footer">
+            <div>
+                <strong>SOCIAL</strong>
+                <span>por Ana</span>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="hero-visual">
+
+
+        <div class="floating-tag tag-one">
+            ✦ Branding
+        </div>
+
+
+        <div class="floating-tag tag-two">
+            ↗ Websites
+        </div>
+
+
+        <div class="floating-tag tag-three">
+            ● Social
+        </div>
+
+
+
+        <div class="hero-card">
+
+            <div class="hero-card-top">
 
                 <span>
-                    ANA OLIVAS & GERMÁN VARELA
+                    impacthaus
                 </span>
 
                 <span>
-                    EST. 2026
+                    ●
                 </span>
 
             </div>
 
-        </section>
+
+            <div class="hero-card-logo">
+
+                <img
+                    src="impacthaus-icon.png"
+                    alt=""
+                >
+
+            </div>
+
+
+            <div class="hero-card-bottom">
+
+                <span>
+                    ideas
+                </span>
+
+                <span class="hero-card-plus">
+                    +
+                </span>
+
+                <span>
+                    diseño
+                </span>
+
+                <span class="hero-card-plus">
+                    +
+                </span>
+
+                <span>
+                    estrategia
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-sticker">
+
+            <span>
+                LET'S
+            </span>
+
+            CREATE
+
+        </div>
+
+
+    </div>
+
+
+    <div class="hero-scroll">
+        ↓ SCROLL
+    </div>
+
+</section>
 
 
 
-        <!-- INTRO -->
+<!-- ========================================
+     MARQUEE
+======================================== -->
 
-        <section class="manifesto">
+<div class="marquee">
 
-            <p class="eyebrow">
-                IMPACTHAUS
+    <div class="marquee-track">
+
+        <span>WEB DESIGN ✦</span>
+        <span>SOCIAL MEDIA ✦</span>
+        <span>BRANDING ✦</span>
+        <span>CONTENT ✦</span>
+        <span>CREATIVE STUDIO ✦</span>
+
+        <span>WEB DESIGN ✦</span>
+        <span>SOCIAL MEDIA ✦</span>
+        <span>BRANDING ✦</span>
+        <span>CONTENT ✦</span>
+        <span>CREATIVE STUDIO ✦</span>
+
+    </div>
+
+</div>
+
+
+
+<!-- ========================================
+     INTRO
+======================================== -->
+
+<section class="intro">
+
+    <div class="intro-label">
+
+        <span>01</span>
+
+        SOBRE IMPACTHAUS
+
+    </div>
+
+
+    <div class="intro-content">
+
+        <h2>
+            No hacemos contenido
+            <span>por hacer contenido.</span>
+        </h2>
+
+
+        <div class="intro-copy">
+
+            <p>
+
+                Construimos una presencia digital que se sienta
+                coherente, cuidada y diferente.
+
+            </p>
+
+            <p>
+
+                Desde tu página hasta tu Instagram, queremos que
+                todo tenga sentido y se sienta como tu marca.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ========================================
+     SERVICIOS
+======================================== -->
+
+<section
+    class="services"
+    id="servicios"
+>
+
+
+    <div class="section-head">
+
+        <div>
+
+            <div class="section-label">
+                WHAT WE DO
+            </div>
+
+            <h2>
+                Dos mundos.<br>
+                <span>Una misma marca.</span>
+            </h2>
+
+        </div>
+
+
+        <p>
+
+            Puedes trabajar con un servicio
+            o combinar ambos para tener una presencia
+            digital completa.
+
+        </p>
+
+    </div>
+
+
+
+    <div class="services-grid">
+
+
+        <!-- WEB -->
+
+        <article class="service-card service-web">
+
+            <div class="service-number">
+                01
+            </div>
+
+
+            <div class="service-emoji">
+                💻
+            </div>
+
+
+            <div class="service-person">
+                GERMÁN VARELA
+            </div>
+
+
+            <h3>
+                Web que sí dan<br>
+                ganas de explorar.
+            </h3>
+
+
+            <p>
+
+                Sitios modernos, rápidos y hechos
+                alrededor de tu negocio. No templates
+                que parecen de todo el mundo.
+
             </p>
 
 
-            <div class="manifesto-grid">
+            <div class="service-tags">
 
-                <h2>
-                    Todo lo que tu marca
-                    necesita para verse bien.
-                </h2>
+                <span>Landing pages</span>
+                <span>Negocios</span>
+                <span>Responsive</span>
+                <span>WhatsApp</span>
+                <span>Maps</span>
+                <span>Reservas</span>
 
+            </div>
+
+
+            <a
+                href="#web-paquetes"
+                class="service-link"
+            >
+                Ver paquetes web
+                <span>↗</span>
+            </a>
+
+        </article>
+
+
+
+        <!-- SOCIAL -->
+
+        <article class="service-card service-social">
+
+            <div class="service-number">
+                02
+            </div>
+
+
+            <div class="service-emoji">
+                ✦
+            </div>
+
+
+            <div class="service-person">
+                ANA OLIVAS
+            </div>
+
+
+            <h3>
+                Redes que se ven<br>
+                como tu marca.
+            </h3>
+
+
+            <p>
+
+                Estrategia, branding y contenido pensado
+                para construir una cuenta atractiva,
+                constante y con personalidad.
+
+            </p>
+
+
+            <div class="service-tags">
+
+                <span>Instagram</span>
+                <span>Posts</span>
+                <span>Reels</span>
+                <span>Branding</span>
+                <span>Estrategia</span>
+                <span>Contenido</span>
+
+            </div>
+
+
+            <a
+                href="#social-paquetes"
+                class="service-link"
+            >
+                Ver paquetes social
+                <span>↗</span>
+            </a>
+
+        </article>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- ========================================
+     BENEFICIOS
+======================================== -->
+
+<section class="benefits">
+
+    <div class="benefit benefit-yellow">
+
+        <span class="benefit-icon">
+            ✦
+        </span>
+
+        <h3>
+            Se siente tuyo.
+        </h3>
+
+        <p>
+            Nada genérico. Diseñamos alrededor
+            de tu personalidad y negocio.
+        </p>
+
+    </div>
+
+
+    <div class="benefit benefit-purple">
+
+        <span class="benefit-icon">
+            ↗
+        </span>
+
+        <h3>
+            Todo conecta.
+        </h3>
+
+        <p>
+            Tu web, redes e identidad hablan
+            el mismo idioma.
+        </p>
+
+    </div>
+
+
+    <div class="benefit benefit-green">
+
+        <span class="benefit-icon">
+            :)
+        </span>
+
+        <h3>
+            Fácil para ti.
+        </h3>
+
+        <p>
+            Nos encargamos de la parte creativa
+            y técnica sin hacer complicado el proceso.
+        </p>
+
+    </div>
+
+</section>
+
+
+
+<!-- ========================================
+     PAQUETES
+======================================== -->
+
+<section
+    class="pricing"
+    id="paquetes"
+>
+
+
+    <div class="section-head pricing-head">
+
+        <div>
+
+            <div class="section-label">
+                PRICING
+            </div>
+
+            <h2>
+                Elige lo que<br>
+                <span>tu marca necesita.</span>
+            </h2>
+
+        </div>
+
+
+        <p>
+            Precios de lanzamiento pensados
+            para negocios que quieren comenzar
+            a mejorar su presencia digital.
+        </p>
+
+    </div>
+
+
+
+    <!-- WEB -->
+
+    <div
+        class="pricing-block"
+        id="web-paquetes"
+    >
+
+        <div class="pricing-block-header">
+
+            <div>
+
+                <span class="pricing-icon">
+                    💻
+                </span>
 
                 <div>
 
-                    <p>
-                        Una buena presencia digital no depende solamente
-                        de tener una página bonita o publicar contenido.
-                    </p>
+                    <small>
+                        DISEÑO + DESARROLLO
+                    </small>
 
-                    <p>
-                        En Impacthaus combinamos diseño web y manejo de redes
-                        para construir una imagen coherente en todos los
-                        puntos donde tus clientes conocen tu negocio.
-                    </p>
+                    <h3>
+                        Páginas web
+                    </h3>
 
                 </div>
 
             </div>
 
-        </section>
+            <span class="pricing-type">
+                PAGO ÚNICO
+            </span>
+
+        </div>
 
 
+        <div class="pricing-grid">
 
-        <!-- SERVICIOS -->
 
-        <section
-            class="services"
-            id="servicios"
-        >
+            <!-- BASIC -->
 
-            <div class="section-heading">
+            <article class="price-card">
 
                 <div>
 
-                    <p class="eyebrow">
-                        LO QUE HACEMOS
-                    </p>
+                    <span class="package">
+                        BASIC
+                    </span>
 
-                    <h2>
-                        Nuestros servicios.
-                    </h2>
+                    <div class="price">
+
+                        $1,499
+
+                        <small>
+                            MXN
+                        </small>
+
+                    </div>
+
+                    <p class="price-description">
+                        Para tener presencia online
+                        sin complicarte.
+                    </p>
 
                 </div>
 
 
-                <p class="section-description">
-                    Dos áreas especializadas que trabajan juntas
-                    para construir una presencia digital completa.
-                </p>
+                <ul>
 
-            </div>
+                    <li>Página de una sola sección</li>
+                    <li>Diseño personalizado</li>
+                    <li>Adaptada a celular</li>
+                    <li>WhatsApp directo</li>
+                    <li>Redes sociales</li>
+                    <li>Publicación</li>
 
-
-
-            <div class="services-grid">
-
-
-                <!-- WEB -->
-
-                <article class="service">
-
-                    <div class="service-top">
-
-                        <span class="service-number">
-                            01
-                        </span>
-
-                        <div class="service-icon">
-                            ↗
-                        </div>
-
-                    </div>
+                </ul>
 
 
-                    <p class="service-label">
-                        GERMÁN VARELA
-                    </p>
+                <a
+                    href="https://wa.me/526462921358?text=Hola%20Germ%C3%A1n%2C%20vi%20Impacthaus%20y%20me%20interesa%20el%20paquete%20Web%20Basic%20de%20%241%2C499.%20%C2%BFMe%20puedes%20dar%20m%C3%A1s%20informaci%C3%B3n%3F"
+                    target="_blank"
+                    class="price-button"
+                >
+                    Me interesa
+                    <span>↗</span>
+                </a>
 
-
-                    <h3>
-                        Diseño &<br>
-                        Desarrollo Web
-                    </h3>
-
-
-                    <p class="service-text">
-                        Desarrollo páginas modernas, limpias y funcionales
-                        adaptadas a las necesidades de cada negocio.
-                    </p>
-
-
-                    <div class="service-list">
-
-                        <span>Páginas para negocios</span>
-                        <span>Landing pages</span>
-                        <span>Diseño responsive</span>
-                        <span>WhatsApp directo</span>
-                        <span>Mapas</span>
-                        <span>Experiencia de usuario</span>
-
-                    </div>
-
-                </article>
+            </article>
 
 
 
-                <!-- REDES -->
+            <!-- BUSINESS -->
 
-                <article class="service featured">
+            <article class="price-card price-featured">
 
-                    <div class="service-top">
-
-                        <span class="service-number">
-                            02
-                        </span>
-
-                        <div class="service-icon">
-                            ✦
-                        </div>
-
-                    </div>
-
-
-                    <p class="service-label">
-                        ANA OLIVAS
-                    </p>
-
-
-                    <h3>
-                        Social Media<br>
-                        Management
-                    </h3>
-
-
-                    <p class="service-text">
-                        Estrategia, creación y manejo de contenido para
-                        construir una presencia atractiva y consistente
-                        en redes sociales.
-                    </p>
-
-
-                    <div class="service-list">
-
-                        <span>Manejo de redes</span>
-                        <span>Posts</span>
-                        <span>Reels</span>
-                        <span>Branding</span>
-                        <span>Estrategia digital</span>
-                        <span>Creación de contenido</span>
-
-                    </div>
-
-                </article>
-
-            </div>
-
-        </section>
-
-
-
-        <!-- PAQUETES -->
-
-        <section
-            class="pricing"
-            id="paquetes"
-        >
-
-
-            <div class="section-heading">
+                <div class="popular">
+                    FAVORITO
+                </div>
 
                 <div>
 
-                    <p class="eyebrow">
-                        PRECIOS DE LANZAMIENTO
-                    </p>
+                    <span class="package">
+                        BUSINESS
+                    </span>
 
-                    <h2>
-                        Encuentra tu paquete.
-                    </h2>
+                    <div class="price">
 
-                </div>
+                        $2,499
 
+                        <small>
+                            MXN
+                        </small>
 
-                <p class="section-description">
-                    Diferentes opciones dependiendo de las necesidades
-                    de tu negocio.
-                </p>
+                    </div>
 
-            </div>
-
-
-
-            <!-- PÁGINAS WEB -->
-
-            <div class="pricing-category">
-
-
-                <div class="pricing-title">
-
-                    <p class="eyebrow">
-                        DISEÑO & DESARROLLO
-                    </p>
-
-                    <h3>
-                        Páginas web.
-                    </h3>
-
-                    <p>
-                        Pago único
+                    <p class="price-description">
+                        Para negocios que quieren una web
+                        más completa y profesional.
                     </p>
 
                 </div>
 
 
+                <ul>
 
-                <div class="pricing-grid">
+                    <li>Sitio más completo</li>
+                    <li>Diseño personalizado</li>
+                    <li>Secciones y navegación</li>
+                    <li>WhatsApp + Maps</li>
+                    <li>Galería</li>
+                    <li>Animaciones</li>
+                    <li>Configuración para compartir</li>
+                    <li>Publicación</li>
 
+                </ul>
 
-                    <!-- WEB BASIC -->
 
-                    <article class="price-card">
+                <a
+                    href="https://wa.me/526462921358?text=Hola%20Germ%C3%A1n%2C%20vi%20Impacthaus%20y%20me%20interesa%20el%20paquete%20Web%20Business%20de%20%242%2C499.%20%C2%BFMe%20puedes%20dar%20m%C3%A1s%20informaci%C3%B3n%3F"
+                    target="_blank"
+                    class="price-button featured-button"
+                >
+                    Quiero Business
+                    <span>↗</span>
+                </a>
 
-                        <p class="package-label">
-                            BASIC
-                        </p>
+            </article>
 
-                        <p class="price-from">
-                            desde
-                        </p>
 
 
-                        <div class="price">
+            <!-- ADVANCED -->
 
-                            $1,499
+            <article class="price-card">
 
-                            <small>
-                                MXN
-                            </small>
+                <div>
 
-                        </div>
+                    <span class="package">
+                        ADVANCED
+                    </span>
 
+                    <div class="price">
 
-                        <ul>
+                        $4,099
 
-                            <li>Página de una sola sección</li>
-                            <li>Diseño personalizado</li>
-                            <li>Adaptada a celular</li>
-                            <li>WhatsApp directo</li>
-                            <li>Redes sociales</li>
-                            <li>Publicación</li>
+                        <small>
+                            MXN
+                        </small>
 
-                        </ul>
+                    </div>
 
-
-                        <a
-                            href="https://wa.me/526462921358?text=Hola%20Germ%C3%A1n%2C%20vi%20Impacthaus%20y%20me%20interesa%20el%20paquete%20Web%20Basic%20de%20%241%2C499.%20%C2%BFMe%20puedes%20dar%20m%C3%A1s%20informaci%C3%B3n%3F"
-                            target="_blank"
-                            class="price-button"
-                        >
-
-                            Me interesa
-
-                            <span>
-                                ↗
-                            </span>
-
-                        </a>
-
-                    </article>
-
-
-
-                    <!-- WEB BUSINESS -->
-
-                    <article class="price-card highlighted">
-
-                        <span class="recommended">
-                            MÁS RECOMENDADO
-                        </span>
-
-
-                        <p class="package-label">
-                            BUSINESS
-                        </p>
-
-
-                        <p class="price-from">
-                            desde
-                        </p>
-
-
-                        <div class="price">
-
-                            $2,499
-
-                            <small>
-                                MXN
-                            </small>
-
-                        </div>
-
-
-                        <ul>
-
-                            <li>Sitio más completo</li>
-                            <li>Diseño personalizado</li>
-                            <li>Secciones y navegación</li>
-                            <li>WhatsApp + Maps</li>
-                            <li>Galería de imágenes</li>
-                            <li>Animaciones</li>
-                            <li>Configuración para compartir</li>
-                            <li>Publicación</li>
-
-                        </ul>
-
-
-                        <a
-                            href="https://wa.me/526462921358?text=Hola%20Germ%C3%A1n%2C%20vi%20Impacthaus%20y%20me%20interesa%20el%20paquete%20Web%20Business%20de%20%242%2C499.%20%C2%BFMe%20puedes%20dar%20m%C3%A1s%20informaci%C3%B3n%3F"
-                            target="_blank"
-                            class="price-button primary-price-button"
-                        >
-
-                            Quiero Business
-
-                            <span>
-                                ↗
-                            </span>
-
-                        </a>
-
-                    </article>
-
-
-
-                    <!-- WEB ADVANCED -->
-
-                    <article class="price-card">
-
-                        <p class="package-label">
-                            ADVANCED
-                        </p>
-
-
-                        <p class="price-from">
-                            desde
-                        </p>
-
-
-                        <div class="price">
-
-                            $4,099
-
-                            <small>
-                                MXN
-                            </small>
-
-                        </div>
-
-
-                        <ul>
-
-                            <li>Todo lo de Business</li>
-                            <li>Catálogos o menús</li>
-                            <li>Funciones personalizadas</li>
-                            <li>Más páginas o contenido</li>
-                            <li>Interacciones avanzadas</li>
-                            <li>Integraciones externas*</li>
-
-                        </ul>
-
-
-                        <a
-                            href="https://wa.me/526462921358?text=Hola%20Germ%C3%A1n%2C%20vi%20Impacthaus%20y%20me%20interesa%20cotizar%20el%20paquete%20Web%20Advanced%20desde%20%244%2C099.%20%C2%BFMe%20puedes%20dar%20m%C3%A1s%20informaci%C3%B3n%3F"
-                            target="_blank"
-                            class="price-button"
-                        >
-
-                            Cotizar Advanced
-
-                            <span>
-                                ↗
-                            </span>
-
-                        </a>
-
-                    </article>
+                    <p class="price-description">
+                        Cuando tu proyecto necesita algo
+                        más personalizado.
+                    </p>
 
                 </div>
 
-            </div>
+
+                <ul>
+
+                    <li>Todo lo de Business</li>
+                    <li>Catálogos o menús</li>
+                    <li>Funciones personalizadas</li>
+                    <li>Más páginas o contenido</li>
+                    <li>Interacciones avanzadas</li>
+                    <li>Integraciones externas*</li>
+
+                </ul>
+
+
+                <a
+                    href="https://wa.me/526462921358?text=Hola%20Germ%C3%A1n%2C%20vi%20Impacthaus%20y%20me%20interesa%20cotizar%20el%20paquete%20Web%20Advanced%20desde%20%244%2C099.%20%C2%BFMe%20puedes%20dar%20m%C3%A1s%20informaci%C3%B3n%3F"
+                    target="_blank"
+                    class="price-button"
+                >
+                    Cotizar
+                    <span>↗</span>
+                </a>
+
+            </article>
+
+        </div>
+
+    </div>
 
 
 
-            <!-- MANEJO DE REDES -->
+    <!-- SOCIAL -->
 
-            <div class="pricing-category social-pricing">
+    <div
+        class="pricing-block social-block"
+        id="social-paquetes"
+    >
 
+        <div class="pricing-block-header">
 
-                <div class="pricing-title">
+            <div>
 
-                    <p class="eyebrow">
+                <span class="pricing-icon social-icon">
+                    ✦
+                </span>
+
+                <div>
+
+                    <small>
                         SOCIAL MEDIA
-                    </p>
+                    </small>
 
                     <h3>
-                        Manejo de redes.
+                        Manejo de redes
                     </h3>
 
-                    <p>
-                        Planes mensuales
-                    </p>
-
                 </div>
-
-
-
-                <div class="pricing-grid">
-
-
-                    <!-- SOCIAL BASIC -->
-
-                    <article class="price-card">
-
-                        <p class="package-label">
-                            SOCIAL BASIC
-                        </p>
-
-                        <p class="price-from">
-                            mensual
-                        </p>
-
-
-                        <div class="price">
-
-                            $1,999
-
-                            <small>
-                                MXN
-                            </small>
-
-                        </div>
-
-
-                        <ul>
-
-                            <li>8 posts</li>
-                            <li>4 reels</li>
-                            <li>Branding</li>
-                            <li>Planeación mensual</li>
-
-                        </ul>
-
-
-                        <a
-                            href="https://wa.me/526861719264?text=Hola%20Ana%2C%20vi%20Impacthaus%20y%20me%20interesa%20el%20paquete%20Social%20Basic%20de%20%241%2C999%20al%20mes.%20%C2%BFMe%20puedes%20dar%20m%C3%A1s%20informaci%C3%B3n%3F"
-                            target="_blank"
-                            class="price-button"
-                        >
-
-                            Me interesa
-
-                            <span>
-                                ↗
-                            </span>
-
-                        </a>
-
-                    </article>
-
-
-
-                    <!-- SOCIAL BUSINESS -->
-
-                    <article class="price-card highlighted">
-
-                        <span class="recommended">
-                            MÁS RECOMENDADO
-                        </span>
-
-
-                        <p class="package-label">
-                            SOCIAL BUSINESS
-                        </p>
-
-                        <p class="price-from">
-                            mensual
-                        </p>
-
-
-                        <div class="price">
-
-                            $2,999
-
-                            <small>
-                                MXN
-                            </small>
-
-                        </div>
-
-
-                        <ul>
-
-                            <li>10 posts</li>
-                            <li>8 reels</li>
-                            <li>Branding</li>
-                            <li>Estrategia de contenido</li>
-
-                        </ul>
-
-
-                        <a
-                            href="https://wa.me/526861719264?text=Hola%20Ana%2C%20vi%20Impacthaus%20y%20me%20interesa%20el%20paquete%20Social%20Business%20de%20%242%2C999%20al%20mes.%20%C2%BFMe%20puedes%20dar%20m%C3%A1s%20informaci%C3%B3n%3F"
-                            target="_blank"
-                            class="price-button primary-price-button"
-                        >
-
-                            Quiero Business
-
-                            <span>
-                                ↗
-                            </span>
-
-                        </a>
-
-                    </article>
-
-
-
-                    <!-- SOCIAL ADVANCED -->
-
-                    <article class="price-card">
-
-                        <p class="package-label">
-                            SOCIAL ADVANCED
-                        </p>
-
-                        <p class="price-from">
-                            mensual
-                        </p>
-
-
-                        <div class="price">
-
-                            $3,999
-
-                            <small>
-                                MXN
-                            </small>
-
-                        </div>
-
-
-                        <ul>
-
-                            <li>10 posts</li>
-                            <li>8 reels</li>
-                            <li>Branding</li>
-                            <li>Respuestas automáticas</li>
-
-                        </ul>
-
-
-                        <a
-                            href="https://wa.me/526861719264?text=Hola%20Ana%2C%20vi%20Impacthaus%20y%20me%20interesa%20el%20paquete%20Social%20Advanced%20de%20%243%2C999%20al%20mes.%20%C2%BFMe%20puedes%20dar%20m%C3%A1s%20informaci%C3%B3n%3F"
-                            target="_blank"
-                            class="price-button"
-                        >
-
-                            Cotizar Advanced
-
-                            <span>
-                                ↗
-                            </span>
-
-                        </a>
-
-                    </article>
-
-                </div>
-
-
-                <p class="pricing-note">
-                    * Los precios de manejo de redes son mensuales.
-                    Producción presencial de fotografías o video puede
-                    cotizarse por separado.
-                </p>
 
             </div>
 
-        </section>
+            <span class="pricing-type">
+                MENSUAL
+            </span>
+
+        </div>
+
+
+        <div class="pricing-grid">
+
+
+            <!-- SOCIAL BASIC -->
+
+            <article class="price-card">
+
+                <div>
+
+                    <span class="package">
+                        SOCIAL BASIC
+                    </span>
+
+                    <div class="price">
+
+                        $1,999
+
+                        <small>
+                            MXN
+                        </small>
+
+                    </div>
+
+                    <p class="price-description">
+                        Para empezar a darle orden
+                        y personalidad a tu contenido.
+                    </p>
+
+                </div>
+
+
+                <ul>
+
+                    <li>8 posts</li>
+                    <li>4 reels</li>
+                    <li>Branding</li>
+                    <li>Planeación mensual</li>
+
+                </ul>
+
+
+                <a
+                    href="https://wa.me/526861719264?text=Hola%20Ana%2C%20vi%20Impacthaus%20y%20me%20interesa%20el%20paquete%20Social%20Basic%20de%20%241%2C999%20al%20mes.%20%C2%BFMe%20puedes%20dar%20m%C3%A1s%20informaci%C3%B3n%3F"
+                    target="_blank"
+                    class="price-button"
+                >
+                    Me interesa
+                    <span>↗</span>
+                </a>
+
+            </article>
 
 
 
-        <!-- BENEFICIOS -->
+            <!-- SOCIAL BUSINESS -->
 
-        <section class="benefits">
+            <article class="price-card price-featured social-featured">
+
+                <div class="popular">
+                    FAVORITO
+                </div>
+
+                <div>
+
+                    <span class="package">
+                        SOCIAL BUSINESS
+                    </span>
+
+                    <div class="price">
+
+                        $2,999
+
+                        <small>
+                            MXN
+                        </small>
+
+                    </div>
+
+                    <p class="price-description">
+                        Para tener contenido constante
+                        y una estrategia más completa.
+                    </p>
+
+                </div>
 
 
-            <div class="benefit">
+                <ul>
+
+                    <li>10 posts</li>
+                    <li>8 reels</li>
+                    <li>Branding</li>
+                    <li>Estrategia de contenido</li>
+
+                </ul>
+
+
+                <a
+                    href="https://wa.me/526861719264?text=Hola%20Ana%2C%20vi%20Impacthaus%20y%20me%20interesa%20el%20paquete%20Social%20Business%20de%20%242%2C999%20al%20mes.%20%C2%BFMe%20puedes%20dar%20m%C3%A1s%20informaci%C3%B3n%3F"
+                    target="_blank"
+                    class="price-button featured-button"
+                >
+                    Quiero Business
+                    <span>↗</span>
+                </a>
+
+            </article>
+
+
+
+            <!-- SOCIAL ADVANCED -->
+
+            <article class="price-card">
+
+                <div>
+
+                    <span class="package">
+                        SOCIAL ADVANCED
+                    </span>
+
+                    <div class="price">
+
+                        $3,999
+
+                        <small>
+                            MXN
+                        </small>
+
+                    </div>
+
+                    <p class="price-description">
+                        Más contenido y automatización
+                        para una presencia más completa.
+                    </p>
+
+                </div>
+
+
+                <ul>
+
+                    <li>10 posts</li>
+                    <li>8 reels</li>
+                    <li>Branding</li>
+                    <li>Respuestas automáticas</li>
+
+                </ul>
+
+
+                <a
+                    href="https://wa.me/526861719264?text=Hola%20Ana%2C%20vi%20Impacthaus%20y%20me%20interesa%20el%20paquete%20Social%20Advanced%20de%20%243%2C999%20al%20mes.%20%C2%BFMe%20puedes%20dar%20m%C3%A1s%20informaci%C3%B3n%3F"
+                    target="_blank"
+                    class="price-button"
+                >
+                    Cotizar
+                    <span>↗</span>
+                </a>
+
+            </article>
+
+        </div>
+
+
+        <p class="pricing-note">
+
+            * Los planes de redes son mensuales.
+            Producción presencial de fotografía o video
+            puede cotizarse por separado.
+
+        </p>
+
+    </div>
+
+</section>
+
+
+
+<!-- ========================================
+     NOSOTROS
+======================================== -->
+
+<section
+    class="about"
+    id="nosotros"
+>
+
+
+    <div class="about-title">
+
+        <div class="section-label">
+            THE PEOPLE
+        </div>
+
+        <h2>
+            Somos dos.<br>
+            <span>Y hacemos equipo.</span>
+        </h2>
+
+    </div>
+
+
+
+    <div class="team-grid">
+
+
+        <!-- GERMÁN -->
+
+        <article class="team-card team-german">
+
+            <div class="team-top">
+
+                <div class="team-avatar">
+                    G
+                </div>
 
                 <span>
                     01
                 </span>
 
-                <h3>
-                    Identidad
-                </h3>
-
-                <p>
-                    Una imagen coherente en tu página y tus redes.
-                </p>
-
             </div>
 
 
-            <div class="benefit">
+            <div class="team-role">
+                WEB DESIGN & DEVELOPMENT
+            </div>
+
+
+            <h3>
+                Germán Varela
+            </h3>
+
+
+            <p>
+
+                Diseño y desarrollo páginas web modernas,
+                funcionales y adaptadas a la identidad
+                de cada negocio.
+
+            </p>
+
+
+            <div class="team-tags">
+
+                <span>Design</span>
+                <span>Development</span>
+                <span>UX</span>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- ANA -->
+
+        <article class="team-card team-ana">
+
+            <div class="team-top">
+
+                <div class="team-avatar">
+                    A
+                </div>
 
                 <span>
                     02
                 </span>
 
-                <h3>
-                    Presencia
-                </h3>
-
-                <p>
-                    Una imagen profesional desde el primer contacto.
-                </p>
-
             </div>
 
 
-            <div class="benefit">
-
-                <span>
-                    03
-                </span>
-
-                <h3>
-                    Estrategia
-                </h3>
-
-                <p>
-                    Diseñamos cada elemento con un objetivo.
-                </p>
-
-            </div>
-
-        </section>
-
-
-
-        <!-- NOSOTROS -->
-
-        <section
-            class="about"
-            id="nosotros"
-        >
-
-
-            <div class="about-left">
-
-                <p class="eyebrow">
-                    QUIÉNES SOMOS
-                </p>
-
-
-                <h2>
-                    Dos áreas.<br>
-                    Una misma visión.
-                </h2>
-
+            <div class="team-role">
+                SOCIAL MEDIA MANAGEMENT
             </div>
 
 
+            <h3>
+                Ana Olivas
+            </h3>
 
-            <div class="about-right">
 
+            <p>
 
-                <p class="about-intro">
-                    Impacthaus nace de combinar dos elementos esenciales
-                    de cualquier negocio moderno: una buena página web
-                    y una presencia sólida en redes sociales.
-                </p>
+                Estrategia, creación de contenido,
+                identidad visual y manejo de redes
+                para construir marcas consistentes.
 
-
-
-                <div class="person">
-
-                    <span>
-                        01
-                    </span>
-
-
-                    <div>
-
-                        <h3>
-                            Germán Varela
-                        </h3>
-
-                        <small>
-                            WEB DESIGN & DEVELOPMENT
-                        </small>
-
-                        <p>
-                            Encargado del diseño y desarrollo de páginas web.
-                            El enfoque está en crear sitios modernos,
-                            funcionales, limpios y adaptados a la identidad
-                            de cada negocio.
-                        </p>
-
-                    </div>
-
-                </div>
-
-
-
-                <div class="person">
-
-                    <span>
-                        02
-                    </span>
-
-
-                    <div>
-
-                        <h3>
-                            Ana Olivas
-                        </h3>
-
-                        <small>
-                            SOCIAL MEDIA MANAGEMENT
-                        </small>
-
-                        <p>
-                            Encargada del manejo y estrategia de redes sociales,
-                            con experiencia en creación de contenido,
-                            identidad visual y crecimiento de cuentas.
-                        </p>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-
-        <!-- PROCESO -->
-
-        <section class="process">
-
-            <div class="section-heading">
-
-                <div>
-
-                    <p class="eyebrow">
-                        CÓMO TRABAJAMOS
-                    </p>
-
-                    <h2>
-                        De la idea<br>
-                        al resultado.
-                    </h2>
-
-                </div>
-
-            </div>
-
-
-
-            <div class="process-grid">
-
-
-                <div class="process-step">
-
-                    <span>
-                        01
-                    </span>
-
-                    <h3>
-                        Conocemos tu negocio
-                    </h3>
-
-                    <p>
-                        Entendemos qué haces, tus objetivos
-                        y el público al que quieres llegar.
-                    </p>
-
-                </div>
-
-
-
-                <div class="process-step">
-
-                    <span>
-                        02
-                    </span>
-
-                    <h3>
-                        Definimos dirección
-                    </h3>
-
-                    <p>
-                        Creamos una estrategia visual y digital
-                        alrededor de tu marca.
-                    </p>
-
-                </div>
-
-
-
-                <div class="process-step">
-
-                    <span>
-                        03
-                    </span>
-
-                    <h3>
-                        Creamos
-                    </h3>
-
-                    <p>
-                        Diseñamos tu página, contenido y
-                        todos los elementos necesarios.
-                    </p>
-
-                </div>
-
-
-
-                <div class="process-step">
-
-                    <span>
-                        04
-                    </span>
-
-                    <h3>
-                        Lanzamos
-                    </h3>
-
-                    <p>
-                        Publicamos y dejamos todo listo
-                        para comenzar a generar impacto.
-                    </p>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-
-        <!-- PROYECTOS -->
-
-        <section
-            class="projects"
-            id="proyectos"
-        >
-
-            <div class="section-heading">
-
-                <div>
-
-                    <p class="eyebrow">
-                        SELECTED WORK
-                    </p>
-
-                    <h2>
-                        Nuestro trabajo.
-                    </h2>
-
-                </div>
-
-
-                <p class="section-description">
-                    Algunos proyectos de desarrollo web
-                    y manejo de redes sociales.
-                </p>
-
-            </div>
-
-
-
-            <div class="projects-grid">
-
-
-                <!-- MODO WEB -->
-
-                <a
-                    href="https://mi-pagina-web-topaz.vercel.app/"
-                    target="_blank"
-                    class="project project-web"
-                >
-
-                    <div class="project-preview web-preview">
-
-
-                        <div class="project-browser">
-
-
-                            <div class="browser-bar">
-
-                                <div class="browser-dots">
-
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-
-                                </div>
-
-
-                                <div class="browser-url">
-                                    mi-pagina-web-topaz.vercel.app
-                                </div>
-
-                            </div>
-
-
-                            <div class="browser-page">
-
-                                <img
-                                    src="modo-preview.jpg"
-                                    alt="Página web MODO WEB"
-                                >
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-
-
-                    <div class="project-bottom">
-
-                        <div>
-
-                            <p class="project-category">
-                                WEB DESIGN & DEVELOPMENT
-                            </p>
-
-                            <h3>
-                                MODO WEB.
-                            </h3>
-
-                            <p class="project-description">
-                                Diseño web · Desarrollo · Portafolio
-                            </p>
-
-                        </div>
-
-
-                        <div class="project-arrow">
-                            ↗
-                        </div>
-
-                    </div>
-
-                </a>
-
-
-
-                <!-- REDES -->
-
-                <a
-                    href="https://www.instagram.com/anafitnessdiary/"
-                    target="_blank"
-                    class="project project-social"
-                >
-
-                    <div class="project-preview instagram-preview">
-
-
-                        <div class="phone">
-
-
-                            <div class="phone-screen">
-
-
-                                <div class="instagram-header">
-
-                                    <span>
-                                        social media
-                                    </span>
-
-                                    <span>
-                                        •••
-                                    </span>
-
-                                </div>
-
-
-                                <img
-                                    src="social-preview.jpg"
-                                    alt="Proyecto de redes sociales"
-                                >
-
-
-                                <div class="instagram-info">
-
-                                    <div class="ig-icons">
-                                        ♡　○　⌁
-                                    </div>
-
-                                    <strong>
-                                        @impacthaus
-                                    </strong>
-
-                                    <p>
-                                        Estrategia · Contenido · Branding
-                                    </p>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-
-                        <div class="social-decoration">
-
-                            SOCIAL<br>
-                            MEDIA
-
-                        </div>
-
-                    </div>
-
-
-
-                    <div class="project-bottom">
-
-                        <div>
-
-                            <p class="project-category">
-                                SOCIAL MEDIA MANAGEMENT
-                            </p>
-
-                            <h3>
-                                Social Media
-                            </h3>
-
-                            <p class="project-description">
-                                Estrategia · Contenido · Redes Sociales
-                            </p>
-
-                        </div>
-
-
-                        <div class="project-arrow">
-                            ↗
-                        </div>
-
-                    </div>
-
-                </a>
-
-            </div>
-
-        </section>
-
-
-
-        <!-- CONTACTO -->
-
-        <section
-            class="contact"
-            id="contacto"
-        >
-
-            <p class="eyebrow">
-                START A PROJECT
             </p>
 
+
+            <div class="team-tags">
+
+                <span>Social</span>
+                <span>Content</span>
+                <span>Branding</span>
+
+            </div>
+
+        </article>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- ========================================
+     PROCESO
+======================================== -->
+
+<section class="process">
+
+
+    <div class="section-head">
+
+        <div>
+
+            <div class="section-label">
+                HOW IT WORKS
+            </div>
 
             <h2>
-
-                ¿Qué podemos<br>
-
-                <span>
-                    crear para ti?
-                </span>
-
+                Fácil, claro<br>
+                <span>y sin vueltas.</span>
             </h2>
 
+        </div>
 
-            <p class="contact-description">
-                Selecciona el servicio que necesitas y envíanos
-                un mensaje directamente por WhatsApp.
+    </div>
+
+
+
+    <div class="process-grid">
+
+
+        <article class="process-card">
+
+            <span>
+                01
+            </span>
+
+            <div class="process-icon">
+                👋
+            </div>
+
+            <h3>
+                Nos cuentas
+            </h3>
+
+            <p>
+                Conocemos tu negocio, estilo,
+                objetivos y lo que necesitas.
+            </p>
+
+        </article>
+
+
+        <article class="process-card">
+
+            <span>
+                02
+            </span>
+
+            <div class="process-icon">
+                💡
+            </div>
+
+            <h3>
+                Planeamos
+            </h3>
+
+            <p>
+                Definimos una dirección visual
+                y la mejor forma de trabajar.
+            </p>
+
+        </article>
+
+
+        <article class="process-card">
+
+            <span>
+                03
+            </span>
+
+            <div class="process-icon">
+                ✦
+            </div>
+
+            <h3>
+                Creamos
+            </h3>
+
+            <p>
+                Diseñamos tu web, contenido
+                o todo el ecosistema digital.
+            </p>
+
+        </article>
+
+
+        <article class="process-card">
+
+            <span>
+                04
+            </span>
+
+            <div class="process-icon">
+                🚀
+            </div>
+
+            <h3>
+                Lanzamos
+            </h3>
+
+            <p>
+                Revisamos detalles y dejamos
+                todo listo para salir.
+            </p>
+
+        </article>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- ========================================
+     PROYECTOS
+======================================== -->
+
+<section
+    class="projects"
+    id="proyectos"
+>
+
+
+    <div class="section-head">
+
+        <div>
+
+            <div class="section-label">
+                RECENT WORK
+            </div>
+
+            <h2>
+                Algunas cosas<br>
+                <span>que hemos creado.</span>
+            </h2>
+
+        </div>
+
+        <p>
+            Un poquito de web,
+            un poquito de social
+            y muchas ideas.
+        </p>
+
+    </div>
+
+
+
+    <div class="projects-grid">
+
+
+        <!-- MODO WEB -->
+
+        <a
+            href="https://mi-pagina-web-topaz.vercel.app/"
+            target="_blank"
+            class="project-card project-large"
+        >
+
+            <div class="project-image web-project-image">
+
+                <img
+                    src="modo-preview.jpg"
+                    alt="Página MODO WEB"
+                >
+
+                <div class="project-open">
+                    ↗
+                </div>
+
+            </div>
+
+
+            <div class="project-info">
+
+                <div>
+
+                    <span>
+                        WEB DESIGN
+                    </span>
+
+                    <h3>
+                        MODO WEB.
+                    </h3>
+
+                </div>
+
+                <p>
+                    Diseño · Desarrollo · Portafolio
+                </p>
+
+            </div>
+
+        </a>
+
+
+
+        <!-- SOCIAL -->
+
+        <a
+            href="https://www.instagram.com/anafitnessdiary/"
+            target="_blank"
+            class="project-card project-small"
+        >
+
+            <div class="project-image social-project-image">
+
+                <img
+                    src="social-preview.jpg"
+                    alt="Proyecto Social Media"
+                >
+
+                <div class="project-open">
+                    ↗
+                </div>
+
+                <div class="social-badge">
+                    SOCIAL<br>MEDIA
+                </div>
+
+            </div>
+
+
+            <div class="project-info">
+
+                <div>
+
+                    <span>
+                        SOCIAL MEDIA
+                    </span>
+
+                    <h3>
+                        Content & Social
+                    </h3>
+
+                </div>
+
+                <p>
+                    Estrategia · Branding · Contenido
+                </p>
+
+            </div>
+
+        </a>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- ========================================
+     RESEÑAS
+======================================== -->
+
+<section
+    class="reviews"
+    id="resenas"
+>
+
+
+    <div class="section-head reviews-heading">
+
+        <div>
+
+            <div class="section-label">
+                NICE WORDS
+            </div>
+
+            <h2>
+                Lo que dicen<br>
+                <span>de Impacthaus.</span>
+            </h2>
+
+        </div>
+
+
+        <p>
+
+            Si ya trabajamos juntos,
+            cuéntanos cómo fue tu experiencia.
+
+        </p>
+
+    </div>
+
+
+
+    <div class="reviews-grid">
+
+
+        <!-- FORM -->
+
+        <div class="review-form-card">
+
+            <div class="review-form-top">
+
+                <span>
+                    TU TURNO
+                </span>
+
+                <div>
+                    ★
+                </div>
+
+            </div>
+
+
+            <h3>
+                ¿Cómo nos fue?
+            </h3>
+
+
+            <p>
+
+                Tu opinión nos ayuda a mejorar
+                y también ayuda a otras marcas
+                a conocer nuestro trabajo.
+
             </p>
 
 
-
-            <div class="contact-options">
-
-
-                <!-- WEB -->
-
-                <a
-                    href="https://wa.me/526462921358?text=Hola%20Germ%C3%A1n%2C%20vi%20la%20p%C3%A1gina%20de%20Impacthaus%20y%20me%20interesa%20cotizar%20una%20p%C3%A1gina%20web%20para%20mi%20negocio.%20%C2%BFMe%20puedes%20dar%20m%C3%A1s%20informaci%C3%B3n%3F"
-                    target="_blank"
-                    class="contact-option"
-                >
-
-                    <div class="contact-number">
-                        01
-                    </div>
+            <form id="reviewForm">
 
 
-                    <div>
+                <div class="form-group">
 
-                        <small>
-                            DISEÑO & DESARROLLO
-                        </small>
+                    <label for="reviewName">
+                        Nombre
+                    </label>
 
-                        <h3>
-                            Necesito una<br>
-                            página web
-                        </h3>
+                    <input
+                        id="reviewName"
+                        type="text"
+                        placeholder="Tu nombre"
+                        required
+                    >
 
-                        <p>
-                            Habla directamente con Germán.
-                        </p>
-
-                    </div>
+                </div>
 
 
-                    <span class="contact-arrow">
-                        ↗
-                    </span>
+                <div class="form-group">
 
-                </a>
+                    <label for="reviewBusiness">
+                        Negocio
+                        <span>opcional</span>
+                    </label>
 
+                    <input
+                        id="reviewBusiness"
+                        type="text"
+                        placeholder="Nombre de tu negocio"
+                    >
 
-
-                <!-- REDES -->
-
-                <a
-                    href="https://wa.me/526861719264?text=Hola%20Ana%2C%20vi%20la%20p%C3%A1gina%20de%20Impacthaus%20y%20me%20interesa%20el%20manejo%20de%20redes%20sociales%20para%20mi%20negocio.%20%C2%BFMe%20puedes%20dar%20m%C3%A1s%20informaci%C3%B3n%3F"
-                    target="_blank"
-                    class="contact-option"
-                >
-
-                    <div class="contact-number">
-                        02
-                    </div>
+                </div>
 
 
-                    <div>
+                <div class="form-group">
 
-                        <small>
-                            SOCIAL MEDIA
-                        </small>
+                    <label>
+                        Calificación
+                    </label>
 
-                        <h3>
-                            Necesito manejo<br>
-                            de redes
-                        </h3>
 
-                        <p>
-                            Habla directamente con Ana.
-                        </p>
+                    <div
+                        class="rating-stars"
+                        id="ratingStars"
+                    >
+
+                        <button type="button" data-rating="1">★</button>
+                        <button type="button" data-rating="2">★</button>
+                        <button type="button" data-rating="3">★</button>
+                        <button type="button" data-rating="4">★</button>
+                        <button type="button" data-rating="5">★</button>
 
                     </div>
 
-
-                    <span class="contact-arrow">
-                        ↗
-                    </span>
-
-                </a>
-
-            </div>
-
-        </section>
-
-    </main>
+                </div>
 
 
+                <div class="form-group">
 
-    <!-- FOOTER -->
+                    <label for="reviewMessage">
+                        Cuéntanos
+                    </label>
 
-    <footer>
+                    <textarea
+                        id="reviewMessage"
+                        rows="5"
+                        placeholder="¿Qué te pareció trabajar con nosotros?"
+                        required
+                    ></textarea>
+
+                </div>
 
 
-        <div class="footer-main">
-
-
-            <div class="footer-brand">
-
-                <img
-                    src="impacthaus-logo.png"
-                    alt="Impacthaus"
+                <button
+                    type="submit"
+                    class="review-submit"
                 >
-
-            </div>
-
-
-
-            <div class="footer-column">
-
-                <p>
-                    CONTACTO
-                </p>
+                    Publicar reseña
+                    <span>↗</span>
+                </button>
 
 
-                <a
-                    href="https://wa.me/526462921358?text=Hola%20Germ%C3%A1n%2C%20vi%20Impacthaus%20y%20me%20interesa%20una%20p%C3%A1gina%20web."
-                    target="_blank"
-                >
-                    Web · Germán
-                </a>
+                <p id="reviewStatus"></p>
 
-
-                <a
-                    href="https://wa.me/526861719264?text=Hola%20Ana%2C%20vi%20Impacthaus%20y%20me%20interesa%20el%20manejo%20de%20redes%20sociales."
-                    target="_blank"
-                >
-                    Social Media · Ana
-                </a>
-
-            </div>
-
-
-
-            <div class="footer-column">
-
-                <p>
-                    SERVICIOS
-                </p>
-
-                <span>
-                    Web Design
-                </span>
-
-                <span>
-                    Development
-                </span>
-
-                <span>
-                    Social Media
-                </span>
-
-            </div>
+            </form>
 
         </div>
 
 
 
-        <div class="footer-bottom">
+        <!-- REVIEWS -->
 
-            <span>
-                © 2026 IMPACTHAUS
-            </span>
+        <div class="reviews-wall">
 
-            <span>
-                ANA OLIVAS & GERMÁN VARELA
-            </span>
+
+            <div class="reviews-wall-header">
+
+                <div>
+
+                    <span>
+                        EXPERIENCIAS
+                    </span>
+
+                    <h3>
+                        Happy clients :)
+                    </h3>
+
+                </div>
+
+
+                <div class="reviews-counter">
+
+                    <strong id="reviewCount">
+                        0
+                    </strong>
+
+                    <span>
+                        reseñas
+                    </span>
+
+                </div>
+
+            </div>
+
+
+
+            <div
+                class="reviews-container"
+                id="reviewsContainer"
+            >
+
+                <div class="reviews-empty">
+
+                    <div>
+                        ✦
+                    </div>
+
+                    <h4>
+                        Aún no hay reseñas.
+                    </h4>
+
+                    <p>
+                        Puedes ser de los primeros
+                        en dejarnos una :)
+                    </p>
+
+                </div>
+
+            </div>
+
 
         </div>
 
-    </footer>
+
+    </div>
+
+</section>
 
 
-    <script src="script.js"></script>
+
+<!-- ========================================
+     CONTACTO
+======================================== -->
+
+<section
+    class="contact"
+    id="contacto"
+>
+
+
+    <div class="contact-bubble bubble-one"></div>
+    <div class="contact-bubble bubble-two"></div>
+
+
+    <div class="contact-content">
+
+        <span class="contact-kicker">
+            START SOMETHING COOL
+        </span>
+
+
+        <h2>
+            ¿Creamos algo<br>
+            <span>juntos?</span>
+        </h2>
+
+
+        <p>
+
+            Elige qué necesitas y habla directamente
+            con quien llevará tu proyecto.
+
+        </p>
+
+
+
+        <div class="contact-buttons">
+
+
+            <a
+                href="https://wa.me/526462921358?text=Hola%20Germ%C3%A1n%2C%20vi%20Impacthaus%20y%20me%20interesa%20cotizar%20una%20p%C3%A1gina%20web%20para%20mi%20negocio.%20%C2%BFMe%20puedes%20dar%20m%C3%A1s%20informaci%C3%B3n%3F"
+                target="_blank"
+                class="contact-button"
+            >
+
+                <div>
+
+                    <small>
+                        WEB
+                    </small>
+
+                    <strong>
+                        Hablar con Germán
+                    </strong>
+
+                </div>
+
+                <span>
+                    ↗
+                </span>
+
+            </a>
+
+
+
+            <a
+                href="https://wa.me/526861719264?text=Hola%20Ana%2C%20vi%20Impacthaus%20y%20me%20interesa%20el%20manejo%20de%20redes%20sociales%20para%20mi%20negocio.%20%C2%BFMe%20puedes%20dar%20m%C3%A1s%20informaci%C3%B3n%3F"
+                target="_blank"
+                class="contact-button"
+            >
+
+                <div>
+
+                    <small>
+                        SOCIAL
+                    </small>
+
+                    <strong>
+                        Hablar con Ana
+                    </strong>
+
+                </div>
+
+                <span>
+                    ↗
+                </span>
+
+            </a>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+
+<!-- ========================================
+     FOOTER
+======================================== -->
+
+<footer>
+
+
+    <div class="footer-top">
+
+        <img
+            src="impacthaus-logo.png"
+            alt="Impacthaus"
+        >
+
+
+        <p>
+            Web · Social · Creative
+        </p>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <span>
+            © 2026 IMPACTHAUS
+        </span>
+
+        <span>
+            ANA OLIVAS × GERMÁN VARELA
+        </span>
+
+    </div>
+
+</footer>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="script.js"></script>
 
 </body>
 
